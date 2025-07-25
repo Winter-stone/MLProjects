@@ -1,2 +1,2 @@
 # Cats VS Dogs
-This projects contains a dataset of cat and dog images, this is a machine learning project is a binary classification, the model is trained using both cat and dog images, and it predicts user input images, if whether it is a cat or a dog.
+This projects contains a dataset of cat and dog images, this is a machine learning project binary classification, the model is trained using both cat and dog images, and it predicts user input images, if whether it is a cat or a dog.
