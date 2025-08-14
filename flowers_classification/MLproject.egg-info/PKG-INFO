@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: MLproject
+Version: 0.0.1
+Author: Montic
+Author-email: marvinmontic7@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: scikit_learn
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: matplotlib

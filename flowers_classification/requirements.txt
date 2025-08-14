@@ -1,0 +1,8 @@
+pandas
+numpy
+tensorflow
+scikit_learn
+Pillow
+requests
+matplotlib
+-e .
