@@ -50,7 +50,7 @@ if img_url:
 
 else:
     try:
-        image = tf.keras.preprocessing.image.load_img('cats_vs_dogs/dogs/4.jpg')
+        image = tf.keras.preprocessing.image.load_img('dataset/cats_vs_dogs/dogs/4.jpg')
 
     except FileNotFoundError as e:
         print('File Not Found at', e)
@@ -66,7 +66,7 @@ else:
         TH = 0.5
         prediction_index = int(prediction[0][0] > TH)
         print(prediction)
-        print(f'This Picture is of a {labels[prediction_index][:-1]} with {round(np.max(prediction), 3) * 100} certainty')
+        print(f'This Picture is of a {labels[prediction_index][:-1]} with {round(np.max(prediction), 2) * 100} certainty')
         plt.figure(figsize=(8, 8))
         plt.imshow(img)
         plt.axis('off')
