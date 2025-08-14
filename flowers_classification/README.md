@@ -1,5 +1,6 @@
 # Pre-trained Image Classification Model
 
+<<<<<<< HEAD
 ### Transfer learning with google's Inception V3 model in python.
 
 #### This pre-trained image classification model is a machine learning program that is trained on 5 different flowers [dandelion, daisy, tulips, sunflowers, roses] making it a categorical classification. It then predicts what the image inputted by the user is with a certainty score in %.
@@ -30,3 +31,6 @@ pip install requests
 
 
 ## End of program
+=======
+### Transfer learning with google Inception V3 model
+>>>>>>> abbaa63fcc8a5acb53c786cc472f8e5dced51def
